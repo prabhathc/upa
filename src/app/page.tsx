@@ -3,9 +3,9 @@ import { Canvas } from '../components/Canvas';
 
 export default function Home() {
   return (
-    <div className="relative">
+    <main className="relative min-h-screen">
       <Header />
       <Canvas />
-    </div>
+    </main>
   );
 }
